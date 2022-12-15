@@ -2,7 +2,7 @@
 int SpeedFriendTwo = 2;
 int SpeedDog = 5;
 int Distance = 10000;
-int Friend = 1;
+int Friend = 2;
 int count = 0;
 int time;
 while (Distance > 10)
