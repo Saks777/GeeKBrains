@@ -7,20 +7,19 @@ int count = 0;
 int time;
 while(Distance > 10)
 {
-  if(Friend == 1)
-
+  if (Friend == 1)
    {
      time = Distance / (SpeedFriendOne + SpeedDog);
      Friend = 2;
      Distance = Distance - (SpeedFriendOne + SpeedFriendTwo) * time;
-     count++;
+     count = count + 1;
    }
-   if(Friend == 2)
+   else if (Friend == 2)
    {
-    time = Distance / (SpeedFriendOne + SpeedDog);
+    time = Distance / (SpeedFriendTwo + SpeedDog);
      Friend = 1;
      Distance = Distance - (SpeedFriendOne + SpeedFriendTwo) * time;
-     count++;
+     count = count + 1;
    }
 
 }
