@@ -23,4 +23,4 @@ while(Distance > 10)
    }
 
 }
-Console.WriteLine(count);
+Console.Write(count);
