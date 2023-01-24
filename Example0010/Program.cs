@@ -1,6 +1,6 @@
 ﻿
 // Метод с массивами
-
+Console.Clear();
 int Max(int arg1, int arg2, int arg3)
 {
 
